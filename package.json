@@ -1,0 +1,23 @@
+{
+  "name": "controlalumnosejemplo",
+  "version": "1.0.0",
+  "description": "Ejemplo Control de Alumnos para la seccion IN6BM 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Erick Bran",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "pdfkit": "^0.13.0",
+    "pdfmake": "^0.2.4"
+  }
+}
