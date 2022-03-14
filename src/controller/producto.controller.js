@@ -37,7 +37,7 @@ function AddProductos(req,res){
             }
         })
     }else{
-        return res.status(500).send({messmensajeage:'llene los campos obligatorios'})
+        return res.status(500).send({mensaje:'Ingrese los datos correctamente :('})
     }
 }
 
